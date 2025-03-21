@@ -1,0 +1,31 @@
+/*MAIN*/
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 60%;
+}
+
+.title {
+  font-family: var(--secondary-font);
+  font-size: 70px;
+}
+
+.description {
+  font-size: 22px;
+}
+
+/*ANIMACION CURSOR*/
+
+.cursor {
+  animation: blink 1s steps(6, start) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

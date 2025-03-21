@@ -12,6 +12,12 @@
   --light: #eef4ed;
 }
 
+/*ESTILOS GENERALES Y LAYOUT*/
+
+html, *, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--principal-font);
   color: var(--beige);
@@ -29,9 +35,8 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-/*PAGINA PRINCIPAL*/
-
 /*NAVEGACION*/
+
 .header {
   width: 100%;
   padding: 20px 0;
@@ -61,34 +66,30 @@ h1, h2, h3, p {
   background-color: var(--red);
 }
 
-/*MAIN*/
+/*FOOTER*/
 
-.main {
-  height: 100vh;
+.footer {
+  width: 100%;
+  padding: 20px;
+  border-top: solid 1px var(--beige);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  width: 60%;
+  justify-content: space-between;
 }
 
-.title {
-  font-family: var(--secondary-font);
-  font-size: 70px;
+.title-footer {
+  font-size: 30px;
 }
 
-.description {
-  font-size: 22px;
+.title-footer a {
+  text-decoration: none;
+  color: var(--beige);
+  padding: 20px;
 }
 
-/*ANIMACION CURSOR*/
-
-.cursor {
-  animation: blink 1s steps(6, start) infinite;
+.title-footer a:hover {
+  background-color: var(--red);
 }
 
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
+.icon-footer {
+  font-size: 30px;
 }
