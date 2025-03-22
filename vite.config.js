@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/Portfolio_Daryl_Dixon/',
   build: { 
     rollupOptions: { 
+      cssCodeSplit: true,
       input: {
         main: 'index.html',
         historia: 'historia.html',
