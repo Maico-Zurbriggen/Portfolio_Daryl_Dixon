@@ -1,15 +1,12 @@
 /*HISTORIA*/
 
-.title {
-  font-family: var(--secondary-font);
-  text-align: center;
+.section {
+  overflow: hidden;
 }
 
-.section {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  gap: 20px;
+.img-container {
+  float: left;
+  margin-right: 20px;
 }
 
 .img-container source, .img-container img{

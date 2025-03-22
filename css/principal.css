@@ -1,7 +1,7 @@
 /*PAGINA PRINCIPAL*/
 
 .title {
-  font-family: var(--secondary-font);
+  text-align: left;
   font-size: 70px;
 }
 

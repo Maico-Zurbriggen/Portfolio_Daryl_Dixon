@@ -14,7 +14,7 @@
 
 /*ESTILOS GENERALES Y LAYOUT*/
 
-html, *, *::before, *::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -91,6 +91,7 @@ main {
 .title-footer {
   font-family: var(--secondary-font);
   font-size: 28px;
+  text-transform: capitalize;
 }
 
 .title-footer a {
@@ -124,4 +125,12 @@ main {
 
 ::-webkit-scrollbar-track {
   background: var(--light); /* Fondo de la pista */
+}
+
+/*CLASES GENERICAS*/
+
+.title {
+  font-family: var(--secondary-font);
+  text-align: center;
+  text-transform: capitalize;
 }
