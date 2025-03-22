@@ -1,0 +1,1 @@
+.section{display:flex;justify-content:center}.skills{border-spacing:30px 10px;border:5px solid var(--beige)}th{font-family:var(--secondary-font);font-size:20px;font-weight:700;border:2px solid var(--beige);border-collapse:collapse}td{font-size:20px;text-transform:capitalize;border:2px solid var(--beige);padding:0 5px}
