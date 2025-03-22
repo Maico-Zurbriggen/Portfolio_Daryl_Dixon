@@ -9,7 +9,8 @@ export default defineConfig({
         main: 'index.html',
         historia: 'historia.html',
         habilidades: 'habilidades.html',
-        hazanias: 'hazanias.html',
+        experiencias: 'experiencias.html',
+        proyectos: 'proyectos.html',
         contacto: 'contacto.html',
       },
       output: { 
