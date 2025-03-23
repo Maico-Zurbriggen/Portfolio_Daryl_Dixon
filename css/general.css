@@ -37,19 +37,19 @@ h1, h2, h3, p {
 }
 
 h1 {
-  font-size: 32px;
-}
-
-h2 {
   font-size: 28px;
 }
 
-h3 {
+h2 {
   font-size: 24px;
 }
 
-p, li {
+h3, th {
   font-size: 20px;
+}
+
+p, li, td, button, label, input, textarea {
+  font-size: 16px;
 }
 
 main {
@@ -65,7 +65,7 @@ main {
 
 .header {
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: solid 1px var(--beige);
 }
 
@@ -79,14 +79,14 @@ main {
 .navegacion-section {
   font-family: var(--secondary-font);
   list-style: none;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .navegacion-section a {
   text-decoration: none;
   color: var(--beige);
-  padding: 20px;
+  padding: 10px;
 }
 
 .navegacion-section a:hover {
@@ -97,7 +97,7 @@ main {
 
 .footer {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   border-top: solid 1px var(--beige);
   display: flex;
   justify-content: space-between;
@@ -106,14 +106,14 @@ main {
 
 .title-footer {
   font-family: var(--secondary-font);
-  font-size: 28px;
+  font-size: 18px;
   text-transform: capitalize;
 }
 
 .title-footer a {
   text-decoration: none;
   color: var(--beige);
-  padding: 20px;
+  padding: 10px;
 }
 
 .title-footer a:hover {
@@ -121,7 +121,7 @@ main {
 }
 
 .icon-footer {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 /*SCROLLBAR*/
