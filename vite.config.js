@@ -1,11 +1,10 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/Portfolio_Daryl_Dixon/',
-  build: { 
-    rollupOptions: { 
-      cssCodeSplit: true,
+  base: '/Portfolio_Daryl_Dixon/', // Ruta base para GitHub Pages
+  build: {
+    cssCodeSplit: true, // Mantén los CSS divididos
+    rollupOptions: {
       input: {
         main: 'index.html',
         historia: 'historia.html',
@@ -14,11 +13,11 @@ export default defineConfig({
         proyectos: 'proyectos.html',
         contacto: 'contacto.html',
       },
-      output: { 
-        entryFileNames: '[name].js', 
-        chunkFileNames: '[name].js', 
-        assetFileNames: '[name][extname]', 
-      }, 
-    }, 
-  }, 
+      output: {
+        entryFileNames: '[name].js',
+        chunkFileNames: '[name].js',
+        assetFileNames: '[name][extname]',
+      },
+    },
+  },
 });
