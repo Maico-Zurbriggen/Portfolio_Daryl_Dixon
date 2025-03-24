@@ -1,1 +1,1 @@
-.title{text-align:left;font-size:70px}.cursor{animation:blink 1s steps(6,start) infinite}@keyframes blink{50%{opacity:0}}
+.title{text-align:left;font-size:50px}.cursor{animation:blink 1s steps(6,start) infinite}.hidden{display:none}@keyframes blink{50%{opacity:0}}
