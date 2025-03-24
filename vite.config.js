@@ -12,6 +12,8 @@ export default defineConfig({
         experiencias: 'experiencias.html',
         proyectos: 'proyectos.html',
         contacto: 'contacto.html',
+        navegacion: 'navegacion.html',
+        footer: 'footer.html',
       },
       output: {
         entryFileNames: '[name].js',
