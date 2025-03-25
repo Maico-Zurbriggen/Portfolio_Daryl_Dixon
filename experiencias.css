@@ -1,1 +1,1 @@
-main{display:flex;flex-direction:column;align-items:center}.section{max-width:800px;border-bottom:2px solid var(--beige)}.section:last-child{border-bottom:none}
+main{display:flex;flex-direction:column;align-items:center}.section{max-width:800px;border-bottom:2px solid var(--beige)}.dark-mode .section{border-bottom:2px solid var(--brown)}.section:last-child{border-bottom:none}
