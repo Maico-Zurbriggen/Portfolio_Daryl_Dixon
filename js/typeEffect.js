@@ -4,7 +4,7 @@ let indexIncrease = 0;
 let indexDescense = text.length;
 
 function typeEffect() {
-  const nameElement = document.getElementById("name");
+  const nameElement = document.querySelector("span");
 
   if (window.innerWidth < 768) {
     nameElement.innerHTML = text;

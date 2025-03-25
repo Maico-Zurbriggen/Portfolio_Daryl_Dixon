@@ -50,6 +50,18 @@
   width: 200px;
 }
 
-.button:hover {
-  background-color: var(--red);
+/*DARKMODE*/
+.dark-mode .section .form .form-section input, .dark-mode .section .form .form-section textarea {
+  border: 5px solid var(--brown);
+}
+
+.dark-mode .section .form .button {
+  border: 5px solid var(--brown);
+  color: var(--brown);
+  background-color: var(--beige);
+}
+
+.section .form .button:hover {
+  cursor: pointer;
+  background-color: var(--olive);
 }

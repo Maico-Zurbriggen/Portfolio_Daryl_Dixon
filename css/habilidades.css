@@ -22,3 +22,12 @@ td {
   border: 2px solid var(--beige);
   padding: 0 5px;
 }
+
+/*DARKMODE*/
+.dark-mode .section .skills {
+  border: solid 5px var(--brown);
+}
+
+.dark-mode .section .skills th, .dark-mode .section .skills td {
+  border: 2px solid var(--brown);
+}

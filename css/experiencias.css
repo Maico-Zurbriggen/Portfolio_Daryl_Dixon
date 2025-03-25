@@ -11,6 +11,11 @@ main {
   border-bottom: 2px solid var(--beige);
 }
 
+/*DARKMODE*/
+.dark-mode .section {
+  border-bottom: 2px solid var(--brown);
+}
+
 .section:last-child {
   border-bottom: none;
 }

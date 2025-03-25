@@ -6,7 +6,7 @@
   --black: #1C1C1C;
   --gray: #4F4F4F;
   --brown: #6F4E37;
-  --green: #556B2F;
+  --olive: #A2A86A;
   --red: #8B0000;
   --beige: #D2B48C;
   --light: #eef4ed;
@@ -66,6 +66,10 @@ main {
 .header {
   width: 100%;
   border-bottom: solid 1px var(--beige);
+}
+
+.header .dark-mode {
+  border-bottom: solid 1px var(--brown);
 }
 
 .navegacion {
@@ -212,7 +216,7 @@ main {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--beige); /* Color de la barra */
+  background: var(--gray); /* Color de la barra */
   border-radius: 6px; /* Bordes redondeados */
 }
 
@@ -222,6 +226,64 @@ main {
 
 ::-webkit-scrollbar-track {
   background: var(--light); /* Fondo de la pista */
+}
+
+/*DARKMODE*/
+
+.button-dark-mode {
+  position: fixed;
+  bottom: 100px;
+  left: 10px;
+  background: none;
+  border: none;
+  text-align: center;
+  font-size: 24px;
+  color: var(--light);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.active {
+  background-color: var(--olive);
+}
+
+.button-dark-mode:hover {
+  background-color: var(--red);
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: var(--beige);
+  color: var(--brown);
+}
+
+.dark-mode .header {
+  border-bottom: solid 1px var(--brown);
+}
+
+.dark-mode .footer {
+  border-top: solid 1px var(--brown);
+}
+
+.dark-mode nav ul li a {
+  color: var(--brown);
+}
+.dark-mode nav ul li:hover {
+  background-color: var(--olive);
+}
+
+.dark-mode .redes li a {
+  color: var(--brown);
+}
+.dark-mode .redes li:hover {
+  background-color: var(--olive);
+}
+
+.dark-mode .title-footer a {
+  color: var(--brown);
+}
+.dark-mode .title-footer a:hover {
+  background-color: var(--olive);
 }
 
 /*CLASES GENERICAS*/
