@@ -68,10 +68,6 @@ main {
   border-bottom: solid 1px var(--beige);
 }
 
-.header .dark-mode {
-  border-bottom: solid 1px var(--brown);
-}
-
 .navegacion {
   display: flex;
   justify-content: space-around;
@@ -269,6 +265,13 @@ main {
   color: var(--brown);
 }
 .dark-mode nav ul li:hover {
+  background-color: var(--olive);
+}
+
+.dark-mode nav .button-desplegable {
+  color: var(--brown);
+}
+.dark-mode nav .button-desplegable:hover {
   background-color: var(--olive);
 }
 
