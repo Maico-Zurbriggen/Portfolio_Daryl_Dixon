@@ -1,1 +1,1 @@
-main{display:flex;flex-direction:column;align-items:center}.section{max-width:800px;border-bottom:2px solid var(--beige)}.dark-mode .section{border-bottom:2px solid var(--brown)}.section:last-child{border-bottom:none}
+.container{max-width:700px}.experiencias-section{border-bottom:2px solid var(--beige)}.dark-mode .section{border-bottom:2px solid var(--brown)}.experiencias-section:last-child{border-bottom:none}
