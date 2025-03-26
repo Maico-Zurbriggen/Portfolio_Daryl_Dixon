@@ -28,10 +28,10 @@ td {
 }
 
 /*DARKMODE*/
-.dark-mode .section .skills {
+.dark-mode .habilidades-container .skills {
   border: solid 5px var(--brown);
 }
 
-.dark-mode .section .skills th, .dark-mode .section .skills td {
+.dark-mode .habilidades-container .skills th, .dark-mode .habilidades-container .skills td {
   border: 2px solid var(--brown);
 }
