@@ -273,11 +273,11 @@ p, li, td, button, label, input, textarea {
   color: var(--brown);
 }
 
-.dark-mode .header {
+.dark-mode header {
   border-bottom: solid 1px var(--brown);
 }
 
-.dark-mode .footer {
+.dark-mode footer {
   border-top: solid 1px var(--brown);
 }
 
