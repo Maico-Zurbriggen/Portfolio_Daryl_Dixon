@@ -20,8 +20,7 @@
 
 body {
   font-family: var(--principal-font);
-  color: var(--beige);
-  width: 100%;
+  color: var(--beige); 
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -30,6 +29,28 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: var(--brown);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  border-bottom: solid 1px var(--beige);
+}
+
+footer {
+  width: 100%;
+  border-top: solid 1px var(--beige);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1, h2, h3, p {
@@ -52,21 +73,7 @@ p, li, td, button, label, input, textarea {
   font-size: 16px;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  width: 80%;
-  padding: 20px;
-}
-
 /*NAVEGACION*/
-
-.header {
-  width: 100%;
-  border-bottom: solid 1px var(--beige);
-}
 
 .navegacion {
   display: flex;
@@ -79,7 +86,6 @@ main {
 .navegacion-section {
   font-family: var(--secondary-font);
   list-style: none;
-  font-size: 16px;
   font-weight: bold;
   padding: 10px;
 }
@@ -103,6 +109,8 @@ main {
   padding: 0 10px;
   margin: 0;
 }
+
+/*Estilos para cuando el ancho de la pantalla es menor a 768px*/
 
 @media(max-width: 768px) {
   .navegacion {
@@ -136,6 +144,8 @@ main {
   }
 }
 
+/*Animaciones para abrir la navegación*/
+
 @keyframes desplegar {
   from {
     height: 0;
@@ -152,6 +162,8 @@ main {
     opacity: 1;
   }
 }
+
+/*Animaciones para cerrar la navegación*/
 
 @keyframes contraer {
   from {
@@ -172,17 +184,26 @@ main {
 
 /*FOOTER*/
 
-.footer {
-  width: 100%;
-  border-top: solid 1px var(--beige);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .redes {
   display: flex;
   margin: 0;
+}
+
+.redes-section {
+  font-family: var(--secondary-font);
+  list-style: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.redes-section a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+.redes-section:hover {
+  background-color: var(--red);
+  cursor: pointer;
 }
 
 .title-footer {
@@ -229,10 +250,9 @@ main {
 .button-dark-mode {
   position: fixed;
   bottom: 100px;
-  left: 10px;
+  right: 10px;
   background: none;
   border: none;
-  text-align: center;
   font-size: 24px;
   color: var(--light);
   border-radius: 100%;

@@ -1,13 +1,14 @@
 /*EXPERIENCIAS*/
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*Contenedor*/
+
+.container {
+  max-width: 700px;
 }
 
-.section {
-  max-width: 800px;
+/*Borde despues de cada experiencia*/
+
+.experiencias-section {
   border-bottom: 2px solid var(--beige);
 }
 
@@ -16,6 +17,8 @@ main {
   border-bottom: 2px solid var(--brown);
 }
 
-.section:last-child {
+/*Eliminamos el borde en la ultima experiencia*/
+
+.experiencias-section:last-child {
   border-bottom: none;
 }

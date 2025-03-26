@@ -1,9 +1,13 @@
 /*HABILIDADES*/
 
-.section {
+/*Contenedor*/
+
+.habilidades-container {
   display: flex;
   justify-content: center;
 }
+
+/*Tabla*/
 
 .skills {
   border-spacing: 30px 10px;

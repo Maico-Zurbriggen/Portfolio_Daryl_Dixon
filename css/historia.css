@@ -1,5 +1,7 @@
 /*HISTORIA*/
 
+/*Imagen*/
+
 .img-container {
   float: left;
   margin-right: 20px;
@@ -12,8 +14,10 @@
   object-fit: cover;
 }
 
-@media(max-width: 680px) {
-    .section {
+/*Estilos para cuando el ancho de la pantalla es menor a 680px*/
+
+@media(max-width: 540px) {
+    .historia-container {
       display: flex;
       flex-direction: column;
       align-items: center;

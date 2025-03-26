@@ -1,14 +1,17 @@
 /*CONTACTO*/
 
-.section {
+/*Contenedor*/
+
+.contacto-section {
   display: flex;
   justify-content: center;
 }
 
+/*Formulario*/
+
 .form {
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 10px;
   width: 600px;
 }
